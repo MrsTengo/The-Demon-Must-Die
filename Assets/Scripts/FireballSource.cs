@@ -9,7 +9,7 @@ public class FireballSource : MonoBehaviour
     public float targetInSkyDistance;
     void Start()
     {
-        
+        HideCursor();
     }
 
     // Update is called once per frame
@@ -28,5 +28,11 @@ public class FireballSource : MonoBehaviour
         }
 
         transform.LookAt(targetPoint.position);
+    }
+
+    private void HideCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
