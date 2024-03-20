@@ -415,6 +415,36 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &2876647722540904173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2971693292436224246}
+  m_Layer: 0
+  m_Name: Grenade Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2971693292436224246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2876647722540904173}
+  m_LocalRotation: {x: -0.17364825, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7681808345852880210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -20, y: 0, z: 0}
 --- !u!1 &3011385358336040749
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +835,7 @@ GameObject:
   - component: {fileID: 5299848787367392221}
   - component: {fileID: 4987058168714777915}
   - component: {fileID: 384447787005971753}
+  - component: {fileID: 139725846865008844}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -911,6 +942,22 @@ MonoBehaviour:
   valueRectTransform: {fileID: 8941031168169551308}
   gameOverScreen: {fileID: 4721108307899998378}
   gameplayUI: {fileID: 4640845583687081538}
+--- !u!114 &139725846865008844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299848787367392216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047bf18ec130f824b8f0ea12cfaff9bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grenadePrefab: {fileID: 432810889814378341, guid: 216ec6e5fef3e254d86b21071e614d66,
+    type: 3}
+  grenadeSourceTransform: {fileID: 2971693292436224246}
+  force: 500
 --- !u!1 &7096938437271188048
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,9 +983,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7096938437271188048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.886, y: 1.445, z: -0.04377453}
+  m_LocalPosition: {x: 0.886, y: 1.445, z: 0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2971693292436224246}
   m_Father: {fileID: 5299848787367392223}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

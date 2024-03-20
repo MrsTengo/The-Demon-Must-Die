@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &53772265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -290,13 +290,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805457542}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.22290985, y: 0, z: 0, w: 0.9748391}
+  m_LocalPosition: {x: -2.59, y: 2.99, z: -6.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.76, y: 0, z: 0}
 --- !u!1 &1256204119
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,8 +330,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
-  cube1: {fileID: 0}
-  cube2: {fileID: 0}
+  cube1: {fileID: 1722915967}
+  cube2: {fileID: 53772268}
   material1: {fileID: 2100000, guid: 7138f1bf29a19cb4fa805dd543532ea0, type: 2}
   material2: {fileID: 2100000, guid: 753e067a64c39224d9250ed136494a37, type: 2}
   material3: {fileID: 2100000, guid: d00f168c17743a94a820bc973f72191f, type: 2}
@@ -403,7 +403,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256204119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.88, y: -4.681176, z: -8.68}
+  m_LocalPosition: {x: -4.26, y: -4.681176, z: 1.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -427,7 +427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1722915964
 BoxCollider:
   m_ObjectHideFlags: 0

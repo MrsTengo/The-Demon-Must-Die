@@ -6,7 +6,7 @@ using UnityEngine.SocialPlatforms;
 public class Task2 : MonoBehaviour
 {
 
-    //Range[Range(0f, 1f)]
+    [Range(0f, 1f)]
     public float value;
 
     public Transform cube1;
